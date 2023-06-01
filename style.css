@@ -1,0 +1,14 @@
+td .nome-tarefa.concluida {
+    text-decoration: line-through;
+}
+.concluida{
+    text-decoration: line-through;
+}
+
+.nome-tarefa .concluida .option__input{
+    text-decoration: line-through;
+} 
+
+.nome-tarefa.concluida {
+    text-decoration: line-through;
+}
