@@ -1,14 +1,73 @@
-td .nome-tarefa.concluida {
-    text-decoration: line-through;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family: sans-serif;
 }
-.concluida{
+
+header h1 {
+    margin: 80px auto;
+    max-width: 748px;
+    width: 100%;
+}
+
+td .nome-tarefa {
+    text-decoration: line-through;
+  }
+
+  element.style {
     text-decoration: line-through;
 }
 
-.nome-tarefa .concluida .option__input{
-    text-decoration: line-through;
-} 
-
-.nome-tarefa.concluida {
-    text-decoration: line-through;
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+    margin: 80px auto;
+    max-width: 748px;
+    width: 100%;
 }
+
+table {
+    
+    
+    margin: 80px auto;
+    max-width: 748px;
+    width: 100%;
+    
+}
+
+.concluida {
+    text-decoration: line-through;
+    
+}
+
+
+
+button {
+    padding: 4px 0;
+    margin-left: 8px;
+}
+
+button:hover {
+    background-color: #87a091;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    box-sizing: 8px;
+    
+}
+
+.container {
+    margin: 80px auto;
+    max-width: 748px;
+    width: 100%;
+
+}
+
+form {
+    margin-top: 40px;
+}
+
